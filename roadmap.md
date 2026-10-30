@@ -1,0 +1,23 @@
+# Roadmap
+
+- [x] Banco de dados, papéis e regras de acesso (RLS) + pasta digital (storage)
+- [x] Login seguro (e-mail/senha) e redefinição de senha
+- [x] Painel com KPIs e prazos iminentes
+- [x] Clientes (tabela + modal de cadastro/edição)
+- [x] Processos (tabela avançada) + detalhe com Pasta Digital e prazos
+- [x] Prazos e Tarefas (Kanban + lista)
+- [x] Equipe e acessos (admin)
+- [x] Login só com e-mail/senha: sem cadastro público, sem login social; admin cria as contas e define o papel na Equipe
+- [x] Cliente com vários telefones e marcação de WhatsApp
+- [x] Processo com título; CNJ opcional; busca de cliente + botão "novo cliente" no cadastro
+- [x] Pasta digital: renomear arquivo e visualizar dentro do sistema (ícone de olho)
+- [x] Nome do sistema configurável pelo administrador (white-label para vender a vários escritórios)
+- [x] Agenda em formato de calendário, sincronizada com prazos e tarefas
+- [x] Endereço completo no cadastro do cliente
+- [x] Processo: campos Sistema, Andamento e Descrição da ação
+- [x] Equipe e acessos: cadastrar, editar e excluir usuários
+- [x] Histórico de andamentos do processo com data por movimentação
+- [x] Financeiro: categorias + lançamentos (admin cria/edita; advogado só vê os dos seus processos)
+- [x] Painel financeiro (fluxo de caixa mensal, receita, despesas, saldo previsto, inadimplência)
+- [x] Tela Financeiro (tabela com filtros + modal com comprovante)
+- [x] Aba Financeiro no detalhe do processo
