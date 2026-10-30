@@ -34,13 +34,13 @@ export function AppSidebar() {
     <Sidebar collapsible="icon">
       <SidebarHeader className="border-b border-sidebar-border">
         <Link to="/dashboard" className="flex items-center gap-3 px-2 py-2">
-          <div className="flex size-8 shrink-0 items-center justify-center rounded-md bg-sidebar-primary text-sidebar-primary-foreground">
-            <Scale className="size-4" />
+          <div className="flex size-9 shrink-0 items-center justify-center rounded-lg overflow-hidden border border-border/80 shadow-xs bg-white">
+            <img src="/logo.jpg" alt={marca.nome} className="size-full object-contain p-0.5" />
           </div>
           <div className="flex min-w-0 flex-col leading-tight group-data-[collapsible=icon]:hidden">
-            <span className="truncate font-display text-lg font-semibold text-sidebar-accent-foreground">{marca.nome}</span>
+            <span className="truncate font-display text-base font-semibold text-sidebar-accent-foreground">{marca.nome}</span>
             {marca.subtitulo && (
-              <span className="truncate text-[11px] tracking-wide text-sidebar-foreground/70">{marca.subtitulo}</span>
+              <span className="truncate text-[10px] uppercase tracking-wider text-muted-foreground font-medium">{marca.subtitulo}</span>
             )}
           </div>
         </Link>

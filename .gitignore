@@ -12,6 +12,12 @@ lerna-debug.log*
 .env*.local
 *.local
 
+# Planilhas temporarias de importacao
+*.xlsx
+*.xls
+*.csv
+scratch/
+
 # Netlify
 .netlify
 

@@ -1,7 +1,7 @@
 /** Identidade do sistema (white-label): nome e subtítulo exibidos para cada escritório. */
 export type Marca = { nome: string; subtitulo: string };
 
-export const MARCA_PADRAO: Marca = { nome: "Toga", subtitulo: "Gestão Jurídica" };
+export const MARCA_PADRAO: Marca = { nome: "Danielle Blanco", subtitulo: "Advocacia Estratégica" };
 
 export const NOME_MIN = 2;
 export const NOME_MAX = 60;

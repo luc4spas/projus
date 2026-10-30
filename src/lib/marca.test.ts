@@ -22,6 +22,6 @@ describe("título da página", () => {
     expect(tituloPagina("Painel", { nome: "Silva Advocacia", subtitulo: "" })).toBe("Painel — Silva Advocacia");
   });
   it("volta ao nome padrão quando não há configuração", () => {
-    expect(tituloPagina("Painel", null)).toBe("Painel — Toga");
+    expect(tituloPagina("Painel", null)).toBe("Painel — Danielle Blanco");
   });
 });
